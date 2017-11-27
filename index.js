@@ -12,6 +12,7 @@ function coinToss(){
 }
 
 function tailsNeverFails(){
+  let counter = 0;
   while (coinToss()){
     console.log `You got ${counter} tails in a row.`
   }
