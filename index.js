@@ -8,3 +8,11 @@ function printBadges(badges){
 
   return badges;
 }
+
+function tailsNeverFails(){
+  return Math.random >=0.5;
+}
+
+while (tailsNeverFails()){
+  console.log(`You got ${i+1} tails in a row!`)
+}
