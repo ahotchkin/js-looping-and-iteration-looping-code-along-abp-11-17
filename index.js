@@ -15,5 +15,5 @@ function tailsNeverFails(){
   let counter = 0;
   while (coinToss()){
   }
-  return (`You got ${counter} tails in a row!`)
+  return `You got ${counter} tails in a row!`
 }
