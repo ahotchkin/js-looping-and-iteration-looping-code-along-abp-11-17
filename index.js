@@ -8,3 +8,5 @@ function printBadges(badges){
 
   return badges;
 }
+
+printBadges(badges)
