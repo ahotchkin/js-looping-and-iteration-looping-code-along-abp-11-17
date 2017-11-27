@@ -7,10 +7,16 @@ function printBadges(arrayNames){
   return arrayNames;
 }
 
-function tailsNeverFails(){
-  return Math.random() >=0.5;
+function coinToss(){
+  return Math.random() => 0.5;
 }
 
-while (tailsNeverFails()){
-  console.log(`You got ${i} tails in a row!`)
+function tailsNeverFails(){
+  let counter = 0;
+  while (coinToss()){
+    counter++
+  }
+}
+
+return `You got ${counter} tails in a row.`
 }
