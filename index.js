@@ -6,5 +6,5 @@ function printBadges(badges){
     console.log(`Welcome ${badges[i]}! You are employee #${i[i]}`)
   }
 
-  return printBadges;
+  return badges;
 }
