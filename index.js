@@ -1,12 +1,10 @@
 // Code your solutions in this file
-const badges = ['Lisa', 'Kaitlin', 'Jan'];
-
-function printBadges(badges){
-  for (let i = 0; i < badges.length; i++){
-    console.log(`Welcome ${badges[i]}! You are employee #${i+1}.`)
+function printBadges(arrayNames){
+  for (let i = 0; i < arrayNames.length; i++){
+    console.log(`Welcome ${arrayNames[i]}! You are employee #${i+1}.`)
   }
 
-  return badges;
+  return arrayNames;
 }
 
 function tailsNeverFails(){
